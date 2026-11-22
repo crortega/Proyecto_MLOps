@@ -1,0 +1,28 @@
+# Librerias basicas para manejar datos y numeros
+pandas==2.2.2
+numpy==1.26.4
+
+
+
+# El rey del machine learning clasico
+scikit-learn==1.4.2
+
+
+
+# Para trackear experimentos y guardar modelos (la estrella de MLOps)
+mlflow==2.12.1
+
+
+
+# Para montar la API web super rapido y validar los datos que entran
+fastapi==0.110.2
+uvicorn==0.29.0
+pydantic==2.7.1
+
+
+
+# Para hacer peticiones HTTP en los tests del CI/CD
+requests==2.31.0
+
+#para que cuando GitHub Actions ejecute el pipeline en la nube tampoco le dé ese mismo fallo
+setuptools<70 
